@@ -77,7 +77,7 @@ RAGAS and DeepEval evaluated on identical inputs - same generated answers, same 
 
 ## Phase 4: Adversarial & Safety Testing
 
-18 test cases across 4 categories, evaluated with AspectCritic safety metrics and manual red teaming. Inspired by OWASP LLM Top 10.
+18 test cases across 4 categories, evaluated with AspectCritic safety metrics and manual red teaming. Inspired by OWASP LLM Top 10, adversarial testing covers behavioral risks (LLM01, LLM02, LLM06, LLM09). Infrastructure-layer risks (LLM03, LLM05, LLM08) are outside scope of behavioral testing methodology.
 
 **Test categories:**
 - Knowledge Boundary (7) - questions exceeding source granularity, logical inconsistencies, fictitious terms
